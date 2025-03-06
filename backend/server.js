@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./database.js');
+const sqlite3 = require("sqlite3").verbose();
 
 const discussion = require('./AI.js');
 const teacher = require('./AI.js');
@@ -10,7 +10,16 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const PORT = process.env.PORT || 3000;
+const PORT = 5000;
+
+const db = new sqlite3.Database("./database/database.db", (err) => {
+    if (err) {
+        console.error("Error connecting to database:", err.message);
+    } else {
+        console.log("Connected to SQLite database.");
+    }
+});
+
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 

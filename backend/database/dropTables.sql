@@ -1,0 +1,7 @@
+DROP TABLE AnswerCheck;
+DROP TABLE Teacher;
+DROP TABLE Tests;
+DROP TABLE Flashcards;
+DROP TABLE Chat;
+DROP TABLE Languages;
+DROP TABLE Users;
