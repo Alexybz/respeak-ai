@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./database');
+const db = require('./database.js');
 
 const discussion = require('./AI.js');
 const teacher = require('./AI.js');
