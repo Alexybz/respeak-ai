@@ -49,6 +49,6 @@ http://localhost:5173/
 
 ## Troubleshooting
 If you encounter issues:
-- Ensure all dependencies are installed correctly (`npm install` or `yarn install`)
+- Ensure all dependencies are installed correctly (`npm install`)
 - Restart the development server (`Ctrl + C`, then `npm run dev`)
 - Check the console for errors
