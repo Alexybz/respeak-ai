@@ -11,7 +11,7 @@ Before starting, make sure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/respeak.git
+git clone https://github.com/Alexybz/respeak-ai.git
 cd respeak
 ```
 
