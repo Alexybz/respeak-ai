@@ -1,0 +1,59 @@
+.lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.lesson h2 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    font-weight: normal;
+}
+
+.progress-container {
+    flex-grow: 1;
+    margin: 0 20px;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #0078d4;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #c46c1b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.next-button:hover {
+    background-color: #a85a13;
+}
+
+.next-arrow {
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
